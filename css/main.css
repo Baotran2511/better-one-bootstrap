@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    margin: auto;
+    width: 1170px;
+}
+@font-face{
+  font-family: "Roboto Condensed Regular" ;
+  src:url("../fonts/RobotoCondensed-Regular.ttf")
+}
+@font-face{
+    font-family: "Roboto Condensed BoldItalic";
+    src:url("../fonts/RobotoCondensed-BoldItalic.ttf")
+} 
+@font-face{
+    font-family: "Roboto Condensed Bold";
+    src:url("../fonts/RobotoCondensed-Bold.ttf")
+}
+@font-face{
+    font-family: "Roboto Condensed Italic";
+    src:url("../fonts/RobotoCondensed-Italic.ttf")
+}
+@font-face{
+    font-family: "Roboto Condensed Light";
+    src:url("../fonts/RobotoCondensed-Light.ttf")
+}
+@font-face{
+    font-family: "Roboto Condensed LightItalic";
+    src:url("../fonts/RobotoCondensed-LightItalic.ttf")
+}
+@font-face{
+    font-family: 'Open Sans ExtraBold';
+    src:url('../fonts/OpenSans-ExtraBold.ttf');
+}
+@font-face{
+    font-family: 'Open Sans Semibold';
+    src:url('../fonts/OpenSans-Semibold.ttf');   
+}
+@font-face{
+    font-family: 'Open Sans Bold';
+    src:url('../fonts/OpenSans-Bold.ttf')
+}
+.copy-right-top{
+    height: 65px;
+    margin-top: 0;
+    background-color: #a91605;
+}
+
+.copy-right-bottom{
+    height: 10px;
+    background-color: black;
+}

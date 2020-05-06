@@ -1,0 +1,39 @@
+nav{
+    height: 65px
+}
+.menu-main .background-menu{
+    background-color: white;
+    height:65px;
+}
+.menu-main .menu {
+    height:65px;
+    background-color: #a91605;
+    clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
+}
+.menu-main-left ul{
+    display: flex;
+}
+.menu-main-left ul li{
+    list-style: none;
+    justify-content: center;
+    display: block;
+}
+.menu-main-left ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Open Sans ExtraBold';
+    font-size: 12px;
+    justify-content: center;
+    display: block;
+    margin-top: 25px;
+    border-right:1px solid #dfdfdf;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.menu-main-left ul li a:hover{
+    color:#a91605;
+    background-color: white;
+  
+}
+

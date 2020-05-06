@@ -1,0 +1,121 @@
+footer{
+    height:460px;
+    margin-top: 75px;
+    background-color: #333333;
+}
+.footer-top{
+    background-color: white;
+}
+.footer-top .footertop-left{
+    height:10px;
+    background-color: #a91605;
+}
+.footer-top .footertop-right{
+    height:10px;
+    background-color:#333333
+}
+.footer-top .footertop-left .footertop-left-left{
+    height:10px;
+    background-color: #a91605;
+    clip-path: polygon(0 0, 17% 0, 100% 100%, 0 100%);
+
+
+}
+.footer-top .footertop-left .footertop-left-right{
+    background-color: white;
+    height:10px
+}
+.footer-top .footertop-right .footertop-right-left{
+    height:10px;
+    background-color: white;
+}
+.footer-top .footertop-right .footertop-right-right{
+    background-color: #333333;
+    height: 10px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+
+}
+.footer-bottom .footer-left{
+    height: 450px;
+    background-color: #a91605;
+    clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
+  
+}
+.footer-bottom .footer-right{
+    height:450px;
+    background-color: #333333;   
+}
+.footer-bottom .footer-left .logo-footer img
+{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.better-title-footer{
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.footer-info{
+    text-align: justify;
+    font-family: "Arial";
+    font-size: 12px;
+    color:white;
+    margin-left: 80px;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.icon-network{
+ margin-left: 80px;
+ margin-top: 40px;
+}
+.icon-network ul{
+    list-style: none;
+    display: flex;
+    
+}
+.icon-network ul li i{
+    margin-right: 30px;
+    font-size: 17px;
+    margin-left: 0;
+    margin-top: 20px;
+    color:white
+}
+.site-map,
+.footer-center,
+.info-company{
+    margin-top: 95px;
+   
+   
+}
+.site-map ul,
+.footer-center ul,
+.info-company ul{
+    list-style: none;
+  
+}
+.site-map ul li,
+.footer-center ul li,
+.info-company ul li
+{
+    color:white;
+    font-family: "Arial";
+    font-size: 12px;
+    margin-top: 30px;
+}
+.info{
+    font-family: "Roboto Condensed Bold";
+    font-size:14px;
+    color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.info-company ul{
+    list-style: none;
+}
+.info-company ul li{
+    font-family: "Arial";
+    font-style: 12px;
+    color:white;
+    margin-bottom: 30px;
+}

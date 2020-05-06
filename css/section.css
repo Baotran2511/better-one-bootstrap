@@ -1,0 +1,127 @@
+h1{
+    text-align: left;
+    font-family: 'Open Sans ExtraBold';
+    font-size: 40px;
+    line-height: 60px;
+
+    padding-top:20px; 
+}
+.border{ 
+    border-top: 6px solid #a91605;
+    width: 120px;
+}
+.button{
+    text-align: left;
+    font-family: 'Open Sans Semibold';
+    font-size: 16px;
+    text-transform: uppercase;  
+}
+.section-main{
+    height:650px
+}
+h4{
+    color: #a91605;
+    font-family: 'Open Sans ExtraBold';
+    font-size: 30px;
+}
+h5{
+    font-family: 'Open Sans Bold';
+    font-size: 12px;
+    color:#818d98;
+
+}
+.border-section{
+    border-bottom: 3px solid #a91605;
+    width: 160px;
+    margin-top: 20px;
+}
+.section-main .section-left,
+.section-main .section-center,
+.section-main .section-right{
+    margin-top: 50px;
+    height: 240px;
+    border: 1px solid #f1f1f1;
+}
+h6{
+    font-family: 'Open Sans ExtraBold';
+    font-size: 20px; 
+    color: #2c3740;
+    margin-top: 20px;
+   
+}
+.section-main .section-left a h6:hover,
+.section-main .section-left a:hover,
+.section-main .section-left a .active,
+.section-main .section-center a h6:hover,
+.section-main .section-center a:hover,
+.section-main .section-right a h6:hover,
+.section-main .section-right a:hover{  
+    color: #a91605;
+    text-decoration: none;
+}
+.section-main .section-left a p,
+.section-main .section-left a p:hover,
+.section-main .section-center a p,
+.section-main .section-center a p:hover,
+.section-main .section-right a p,
+.section-main .section-right a p:hover,
+.section-new .section-new-sub p{
+    text-align: justify;
+    color:#999999;
+    font-family: "Arial";
+    font-size: 12px;
+    text-decoration: none;
+ 
+}
+.section-main .section-left a,
+.section-main .section-center a,
+.section-main .section-right a
+{
+    color:#2c3740;
+    font-family: "Arial";
+    font-size: 12px;
+    letter-spacing: 1px;
+   
+}
+.section-main .section-left a:hover,
+.section-main .section-center a:hover,
+.section-main .section-right a:hover{
+    color:#a91605
+}
+.section-main-bottom{
+    background-color: #333333;
+    height:500px; 
+}
+.section-main-bottom .section-main-bottom-right{
+    padding-top: 25px;
+
+}
+.section-main-bottom .section-intro{
+    font-family: 'Open Sans ExtraBold';
+    font-size: 30px;
+    color: white;
+   
+}
+.section-main-bottom p{
+    color:white;
+    font-family: "Arial";
+    font-size: 12px;
+    margin-top: 25px;
+    text-align: justify;
+    padding-left: 10px;
+}
+.section-new .section-new-sub .section-new-left,
+.section-new .section-new-sub .section-new-center,
+.section-new .section-new-sub .section-new-right{
+    margin-top: 40px;
+}
+.section-new .section-new-sub .section-new-left img,
+.section-new .section-new-sub .section-new-center img,
+.section-new .section-new-sub .section-new-right img{
+    padding-bottom: 15px;
+}
+.section-new .section-new-sub .section-new-left p,
+.section-new .section-new-sub .section-new-center p,
+.section-new .section-new-sub .section-new-right p{
+    padding-top:15px ;
+}
