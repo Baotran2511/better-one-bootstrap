@@ -1,10 +1,11 @@
 footer{
-    height:460px;
+    height:470px;
     margin-top: 75px;
     background-color: #333333;
 }
 .footer-top{
     background-color: white;
+    height:10px
 }
 .footer-top .footertop-left{
     height:10px;
@@ -36,13 +37,13 @@ footer{
 
 }
 .footer-bottom .footer-left{
-    height: 450px;
+    height: 460px;
     background-color: #a91605;
     clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
   
 }
 .footer-bottom .footer-right{
-    height:450px;
+    height:460px;
     background-color: #333333;   
 }
 .footer-bottom .footer-left .logo-footer img
@@ -109,6 +110,7 @@ footer{
     color: white;
     margin-top: 30px;
     margin-left: 30px;
+    letter-spacing: 2px;
 }
 .info-company ul{
     list-style: none;
