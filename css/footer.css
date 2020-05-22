@@ -5,46 +5,68 @@ footer{
 }
 .footer-top{
     background-color: white;
-    height:10px
+    height:10px;
+    display: flex;
 }
 .footer-top .footertop-left{
     height:10px;
     background-color: #a91605;
+    width: 30%;
+    display: flex;
 }
 .footer-top .footertop-right{
     height:10px;
-    background-color:#333333
+    background-color:#333333;
+    width: 70%;
 }
 .footer-top .footertop-left .footertop-left-left{
     height:10px;
     background-color: #a91605;
     clip-path: polygon(0 0, 17% 0, 100% 100%, 0 100%);
-
+    width: 50%;
 
 }
 .footer-top .footertop-left .footertop-left-right{
     background-color: white;
-    height:10px
+    height:10px;
+    width: 50%;
 }
 .footer-top .footertop-right .footertop-right-left{
     height:10px;
     background-color: white;
+    width: 75%;
 }
 .footer-top .footertop-right .footertop-right-right{
     background-color: #333333;
     height: 10px;
     clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+    width: 25%;
 
+}
+
+.footer-bottom{
+    display: flex;
 }
 .footer-bottom .footer-left{
     height: 460px;
     background-color: #a91605;
     clip-path: polygon(0 0, 100% 0, 65% 100%, 0 100%);
-  
+    width: 35%;
+}
+.footer-bottom .footer-left .logo-footer{
+    display: flex
+}
+.footer-bottom .footer-left .logo-footer .img-logo{
+    width: 20%;
+}
+.footer-bottom .footer-left .logo-footer .info-logo{
+    width: 80%;
 }
 .footer-bottom .footer-right{
     height:460px;
-    background-color: #333333;   
+    background-color: #333333;
+    width: 65%;
+    display: flex;   
 }
 .footer-bottom .footer-left .logo-footer img
 {
@@ -82,22 +104,24 @@ footer{
     margin-top: 20px;
     color:white
 }
-.site-map,
-.footer-center,
-.info-company{
+.footer-bottom .footer-right .site-map,
+.footer-bottom .footer-right .footer-center,
+.footer-bottom .footer-right .info-company{
     margin-top: 95px;
-   
+    width: 30%;
+    margin-left: 20px;
+    margin-right: 30px;
    
 }
-.site-map ul,
-.footer-center ul,
-.info-company ul{
+.footer-bottom .footer-right .site-map ul,
+.footer-bottom .footer-right .footer-center ul,
+.footer-bottom .footer-right .info-company ul{
     list-style: none;
   
 }
-.site-map ul li,
-.footer-center ul li,
-.info-company ul li
+.footer-bottom .footer-right .site-map ul li,
+.footer-bottom .footer-right .footer-center ul li,
+.footer-bottom .footer-right .info-company ul li
 {
     color:white;
     font-family: "Arial";
