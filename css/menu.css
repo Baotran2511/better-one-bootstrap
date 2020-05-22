@@ -1,24 +1,36 @@
 nav{
-    height: 65px
+    height: 65px;
+}
+.menu-main{
+    display: flex;
 }
 .menu-main .background-menu{
     background-color: white;
     height:65px;
+    width: 20%;
 }
 .menu-main .menu {
     height:65px;
     background-color: #a91605;
     clip-path: polygon(4% 0, 100% 0, 100% 100%, 0 100%);
-}
-.menu-main-left ul{
+    width: 80%;
     display: flex;
 }
-.menu-main-left ul li{
+.menu-main .menu {
+    display: flex;
+  
+}
+.menu-main .menu .menu-main-left {
+    width: 80%;
+}.menu-main .menu .menu-main-left ul{
+    display: flex;
+}
+.menu-main .menu .menu-main-left ul li{
     list-style: none;
     justify-content: center;
     display: block;
 }
-.menu-main-left ul li a{
+.menu-main .menu .menu-main-left ul li a{
     text-decoration: none;
     color:white;
     font-family: 'Open Sans ExtraBold';
@@ -31,9 +43,19 @@ nav{
     padding-left: 30px;
 
 }
-.menu-main-left ul li a:hover{
+.menu-main .menu .menu-main-left ul li a:hover{
     color:#a91605;
     background-color: white;
   
+}
+.menu-main .menu .menu-search{
+    width: 20%;
+} 
+.fa-search{
+    color:white;
+    margin-top: 25px;
+    text-align: right;
+   
+
 }
 
