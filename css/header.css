@@ -1,10 +1,14 @@
 header{
-    background-color: white;
+ 
     height:140px
+}
+.header-top {
+    display: flex;
 }
 .header-top .background{
     height:40px;
     background-color: white;
+    width:35%
 }
 .header-top .headertop-right{
     padding: 10px 22px;
@@ -15,9 +19,17 @@ header{
     height:35px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 3% 100%);
     padding-left: 30px;
+    width: 65%;
+    display: flex;
    
 }
-
+.header-top .headertop-right .header-intro{
+    width: 70%;
+}
+.header-top .headertop-right .header-icon{
+    width: 30%;
+    text-align: right;
+}
 .header-top .headertop-right .header-icon ul{
     display: flex;
     list-style: none;
@@ -25,6 +37,7 @@ header{
 .header-top .headertop-right .header-icon ul li{
     padding-right: 15px;
 }
+/* Chính xác*/
 .header-bottom{
     height:90px;
   
@@ -45,6 +58,7 @@ header{
 .header-bottom .icon-phone{
     width: 5%;
     margin-right: 0;
+ 
 }
 .header-bottom .title-phone{
     width: 15%;
@@ -52,6 +66,7 @@ header{
 }
 .header-bottom .phone{
     width: 25%;
+    letter-spacing: 2px
 }
 .header-bottom .header-conform{
     width: 15%;
