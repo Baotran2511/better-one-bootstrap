@@ -51,6 +51,9 @@ nav{
 .menu-main .menu .menu-search{
     width: 20%;
 } 
+.menu-main .menu .menu-search button:focus{
+    outline: none;
+}
 .fa-search{
     color:white;
     margin-top: 25px;
