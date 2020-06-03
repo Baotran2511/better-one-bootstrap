@@ -6,9 +6,16 @@ h1{
 
     padding-top:20px; 
 }
+.fa-chevron-circle-left, .fa-chevron-circle-right{
+    font-size: 40px;
+    margin-top: 230px;
+}
 .border{ 
     border-top: 6px solid #a91605;
     width: 120px;
+}
+.item{
+    height:560px
 }
 .button{
     text-align: left;
@@ -16,6 +23,7 @@ h1{
     font-size: 16px;
     text-transform: uppercase;  
 }
+
 .section-main{
     height:650px
 }
